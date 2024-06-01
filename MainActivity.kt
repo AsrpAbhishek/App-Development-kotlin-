@@ -1,3 +1,6 @@
+//Calculates in Days+Mins+Secs:
+
+//Main Activity: 
 package asrp.example.dobcalc
 
 import android.app.DatePickerDialog
@@ -14,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     private var tvSelectedDate: TextView?=null
     private var tvAgeInMutes: TextView?=null
 
-    fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
